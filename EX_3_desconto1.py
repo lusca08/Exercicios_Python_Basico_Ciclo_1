@@ -1,4 +1,5 @@
 # Escreva um programa que pede ao usuário o preço de um produto e o valor de desconto em % e depois informe qual será o valor do desconto.
+
 # Dica: 
 # use a fórmula 
 # desconto = preco * (porcentagem / 100) 
@@ -12,3 +13,7 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+preço = float(input('qual o preço do produto?  '))
+porcent = float(input('qual a porcentagem do desconto? '))
+desconto = preço * (porcent / 100)
+print(f'o produto que custa {preço} terá R${desconto} de desconto')

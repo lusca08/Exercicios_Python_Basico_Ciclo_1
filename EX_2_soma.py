@@ -1,4 +1,5 @@
 # Escreva um programa que pede ao usuário dois números e exiba no final a soma deles:
+
 # OUTPUT ESPERADO:
 
 # Digite um número: 10
@@ -7,4 +8,9 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+
+n1 = float(input('Digite um número: '))
+n2 = float(input('Digite outro número: '))
+soma = n1 + n2
+print(f'A soma entre {n1} e {n2} é: ', soma )
 
