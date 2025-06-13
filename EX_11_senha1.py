@@ -15,3 +15,12 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+senha = input('digite 4 números: ')
+
+if senha != '0303':
+
+    while senha != '0303':
+        print('Senha incorreta')
+        senha = input('digite 4 números: ')
+
+print('Senha correta')

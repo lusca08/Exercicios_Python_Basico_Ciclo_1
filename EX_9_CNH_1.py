@@ -15,3 +15,7 @@
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
 
+idade = float(input('Digite sua idade'))
+print(idade >= 18)
+print('Pode tirar carteira de motorista? ')
+

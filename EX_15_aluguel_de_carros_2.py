@@ -37,3 +37,13 @@
 # Você andou 100.0km por 10 dias, então o preço a pagar é R$615.00.
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+
+carro=input('qual carro foi alugado: ')
+dias= float(input('quantidade de dias de uso: '))
+km= float(input('quantidade de km percorrido: '))
+
+valor_dias=dias*60
+valor_km=km*0.15
+valor_total = valor_dias+valor_km
+
+print(f'você andou {km} por {dias} o valor que você tem que pagar é {valor_total}')

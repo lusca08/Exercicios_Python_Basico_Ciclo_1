@@ -20,7 +20,27 @@
 # | ______________________________ |
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+nome = input('Digite seu nome: ')
+n1 = float(input('Nota da primeira prova: '))
+n2 = float(input('Nota da segunda prova: '))
+n3 = float(input('Nota da terceira prova: '))
+soma = n1 + n2 + n3
+media = soma / 3
 
-print(f'|{"-"*30}')
+print(f'| {"-"*30}| ')
 print(f'| SISTEMA DE PROVAS')
-print(f'|{"-"*30}')
+print(f'| {"-"*30} |')
+print('| Nota da primeira prova: ', n1)
+print('| Nota da segunda prova: ', n2)
+print('| Nota da terceira prova: ', n3)
+print(f'| {"-"*30} |')
+print('| Aluno: ', nome)
+print('| Média: ', media )
+print(f'| {"-"*30} |')
+
+if media <= 6:
+    print('Aluno reprovado')
+else:
+    print('Aluno Aprovado')
+
+
